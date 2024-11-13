@@ -5,7 +5,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 # High Priority Scenarios 
 
-**Test Scenario 1: User Authentication**
+## Test Scenario 1: User Authentication
 
 **Pre- Conditions:** Application Downloaded successfully 
 
@@ -105,7 +105,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Scenario 2: List Management** 
+## Test Scenario 2: List Management
 
 **Pre - Conditions:**
 1. User Signed In 
@@ -222,47 +222,52 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-Test Scenario 3: Task Management
-Pre - Conditions:
-User Signed In 
-User chose List view 
-User has minimum one List contains minimum one task 
+## Test Scenario 3: Task Management
+**Pre - Conditions:**
+1. User Signed In 
+2. User chose List view 
+3. User has minimum one List contains minimum one task 
 
 
+**Test Case ID: TC - Verify that a user can mark a task as complete**
+**Steps to Execute:**
+1. Get into the preferred List 
+2. Click on the check box beside the task
+3. Click on the Task or Mark as complete button 
 
+**Expected Results:**
+1. Task is marked as completed
+    
+**Actual Results:** 
+1. Task is marked as completed
+   
+**Prioritization:** Medium
 
-Test Case ID: TC - Verify that a user can mark a task as complete
-Steps to Execute:
-Get into the preferred List 
-Click on the check box beside the task
-      Either 
-Click on the Task
-Click on the Mark as complete button 
-Expected Results:
-Task is marked as completed 
-Actual Results: 
-Task is marked as completed 
-Prioritization: Medium
-Status:Pass
-
-------------------------------------------------------
-
-Test Case ID: TC - Verify that a user can unmark a completed task
-Steps to Execute:
-Get into the preferred List 
-Click on the checkbox beside the task
-Uncheck the checkbox 
-Expected Results:
-Task re-assigned 
-Actual Results: 
-Task re-assigned 
-Prioritization: Medium 
-Status: Pass
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can change assigned Task to another List 
-Pre- Conditions: 
+**Test Case ID: TC - Verify that a user can unmark a completed task**
+
+**Steps to Execute:**
+1. Get into the preferred List 
+2. Click on the checkbox beside the task
+3. Uncheck the checkbox 
+
+**Expected Results:**
+1. Task re-assigned 
+2. Actual Results: 
+3. Task re-assigned 
+
+**Prioritization:** Medium 
+
+**Status:** Pass
+
+------------------------------------------------------
+
+**Test Case ID: TC - Verify User can change assigned Task to another List**
+
+**Pre- Conditions:** 
 User Signed In 
 User chose List view 
 User has minimum two Lists one of them contains minimum one task 
@@ -472,13 +477,14 @@ Status: Pass
 
 ------------------------------------------------------
 
-Test Scenario 4: Calendar Management 
-Pre- Conditions:
-User Signed In
-User choose Calendar view
+## Test Scenario 4: Calendar Management 
+
+**Pre- Conditions:**
+1. User Signed In
+2. User choose Calendar view
 
 
-Test Case ID: TC - Verifying User can add event in calendar view
+**Test Case ID: TC - Verifying User can add event in calendar view**
 Steps to Execute:
 Get into the calendar from bottom menu
 Create Event
@@ -498,37 +504,45 @@ Status: Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can edit event on Calendar
-Steps to Execute:
-Get into the calendar from bottom menu
-Click on any event or create one
-Click Edit on the upper right
-Change what is needed 
-Click Done on Upper right
-Expected Results:
-New event change dispalyed 
-Actual Results:
-Changes dispalyed 
-Prioritization: High
-Status: Pass
+**Test Case ID: TC - Verify User can edit event on Calendar**
+
+**Steps to Execute:**
+1. Get into the calendar from bottom menu
+2. Click on any event or create one
+3. Click Edit on the upper right
+4. Change what is needed 
+5. Click Done on Upper right
+
+**Expected Results:**
+1. New event change dispalyed 
+2. Actual Results:
+3. Changes dispalyed 
+
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying user can change Calendar View 
-Steps to Execute: 
-Get into Calendar View 
-Click on menu on top left of the screen 
-Choose preferred view 
-Expected Results: 
-View change depending on choice
-Actual Results:
-View changed
-Prioritization: High
-Status: Pass
+**Test Case ID: TC - Verifying user can change Calendar View** 
+
+**Steps to Execute:** 
+1. Get into Calendar View 
+2. Click on menu on top left of the screen 
+3. Choose preferred view 
+
+**Expected Results:** 
+1. View change depending on choice
+2. Actual Results:
+3. View changed
+
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-**Test Scenario 5: Performance**
+## Test Scenario 5: Performance
 **Test Case 1:CPU Idle State**
 1. Launch the app and let it idle in the background.
 
@@ -541,39 +555,60 @@ Status: Pass
 **Test Case 4: Memory Usage**
 1. Perform various app actions and monitor memory usage over time.
 
-Performance Testing Report 
+## Performance Testing Report 
 
-Device Information:
-Device Model: Samsung SM-A325F
-App Name: AnyDo
-Performance Metrics:
-CPU Usage:
-App CPU Usage: 0%
-Others CPU Usage: 6%
-Threads: 30
-Memory Usage:
-Total Memory: 23.9 MB
-Java Heap: 512 KB
-Native Heap: 2.2 MB
-Graphics: 728 KB
-Stack: 196 KB
-Code: 80 KB
-Others: 20.2 MB
-Allocated Memory: N/A
-Additional Information:
-Timestamp: 04:31:51
-Date: 11/13/2024
-Time: 7:21 PM
-Analysis: 
-CPU Usage: The app's CPU usage is very low (0%). This indicates that the app is not resource-intensive and is running efficiently.
-Memory Usage: The app's memory usage is relatively low (23.9 MB). However, the "Others" category accounts for a significant portion of the memory usage (20.2 MB). Further analysis is needed to identify the cause of this high "Others" usage.
+**Device Information**
+
+**Device Model:** Samsung SM-A325F
+
+**App Name:** AnyDo
+
+**CPU Usage**
+
+**App CPU Usage:** 0%
+
+**Others CPU Usage:** 6%
+
+**Threads:** 30
+
+**Memory Usage**
+
+**Total Memory:** 23.9 MB
+
+**Java Heap:** 512 KB
+
+**Native Heap:** 2.2 MB
+
+**Graphics:** 728 KB
+
+**Stack:** 196 KB
+
+**Code:** 80 KB
+
+**Others:** 20.2 MB
+
+**Allocated Memory:** N/A
+
+**Additional Information**
+
+**Timestamp:** 04:31:51
+
+**Date:** 11/13/2024
+
+**Time:** 7:21 PM
+
+**Analysis**
+
+**CPU Usage:** The app's CPU usage is very low (0%). This indicates that the app is not resource-intensive and is running efficiently.
+
+**Memory Usage:** The app's memory usage is relatively low (23.9 MB). However, the "Others" category accounts for a significant portion of the memory usage (20.2 MB). Further analysis is needed to identify the cause of this high "Others" usage.
 
 
 ------------------------------------------------------
 
-**Medium Priority Scenarios**
+# Medium Priority Scenarios
 
-**Test Scenario 6: User profile handling**
+## Test Scenario 6: User profile handling
 
 **Test Case ID: TC - Verify Hid Email when Signing with Apple** 
 Test Scenario: 
@@ -661,7 +696,7 @@ Status: Pass
 
 ------------------------------------------------------
 
-Test Scenario 7: User account type handling
+# Test Scenario 7: User account type handling
 Pre- Conditions
 User Open App
 User Signed In
@@ -708,7 +743,7 @@ Status: Pass
 
 ------------------------------------------------------
 
-**Test Scenario 8: Account Integration** 
+# Test Scenario 8: Account Integration
 Pre- Conditions
 User Open App
 User Signed In
@@ -748,7 +783,7 @@ User Click WhatsApp
 
 ------------------------------------------------------
 
-**Test Scenario 9: Notifications and Alerts**
+# Test Scenario 9: Notifications and Alerts
 
 Test Case ID: TC - Verify User can see Notifications 
 Pre- Conditions
@@ -769,8 +804,9 @@ Status: Pass
 
 ------------------------------------------------------
 
-**Low Priority Scenarios** 
-Test Scenario 10: User Accessibility 
+# Low Priority Scenarios
+
+## Test Scenario 10: User Accessibility 
 Pre- Conditions
 User Open App
 User Signed In
@@ -821,7 +857,7 @@ Status: Pass
 
 ------------------------------------------------------
 
-Test Scenario 11: User Usability 
+## Test Scenario 11: User Usability 
 Pre- Conditions
 User Open App
 User Signed In
