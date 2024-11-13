@@ -68,11 +68,11 @@ Performance testing applied, utilizing Android Studio's.**
 7. Click Create Account
    
 **Expected Results:**
-1. Sign In successful 
+1. Sign Up successful 
 2. Landing on Intro page
    
 **Actual Results:**
-1. Signed In successful 
+1. Signed Up successful 
 2. Landed on Intro page
    
 **Prioritization:** High
