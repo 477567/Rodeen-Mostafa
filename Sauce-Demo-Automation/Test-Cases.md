@@ -7,10 +7,12 @@ All Test Cases having same Precondition
 
 
 **Test Case 1: Valid Username and Password**
+
 **Steps:**
  1. Enter any of stated usernames as the username.
  2. Enter secret_sauce as the password.
  3. Click the login button.
+    
 **Expected Result:** User is redirected to the main page for shopping/navigation 
 
 **Test Case 2: Invalid Username and Valid Password**
