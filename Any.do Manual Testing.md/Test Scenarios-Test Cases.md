@@ -27,26 +27,34 @@ Performance testing applied, utilizing Android Studio's.**
 2. Landed on Intro page
    
 **Prioritization:** High 
+
 **Status:** Pass 
 
+------------------------------------------------------
 
+**Test Case ID: TC2 - Verify user can Sign In with Apple** 
 
-Test Case ID: TC2 - Verify user can Sign In with Apple 
-Steps to Execute:
-Open App
-Click on Sign In with Apple 
-Choose whether to Share or Hide your mail while Signing In
-Click Continue
-Face ID scanned, if not then device passcode should be entered  
-Expected Results:
-Sign In successful 
-Landing on Intro page 
-Actual Results: 
-Signed In successful 
-Landing on Intro page 
-Prioritization: High 
-Status: Pass
+**Steps to Execute:**
 
+1. Open App
+2. Click on Sign In with Apple 
+3. Choose whether to Share or Hide your mail while Signing In
+4. Click Continue
+5. Face ID scanned, if not then device passcode should be entered
+   
+**Expected Results:**
+1. Sign In successful 
+2. Landing on Intro page
+   
+**Actual Results:** 
+1. Signed In successful 
+2. Landing on Intro page
+   
+**Prioritization:** High 
+
+**Status:** Pass
+
+------------------------------------------------------
 
 Test Case ID: TC3 - Verify User can Sign Up with Mail 
 Steps to Execute:
