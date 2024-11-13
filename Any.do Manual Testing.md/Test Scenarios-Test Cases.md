@@ -610,119 +610,152 @@ Status: Pass
 
 ## Test Scenario 6: User profile handling
 
+**Pre- Conditions:** 
+1. Application Downloaded successfully
+2. User Signed In with Apple 
+3. Use chose to Hide the email while signing In 
+
 **Test Case ID: TC - Verify Hid Email when Signing with Apple** 
-Test Scenario: 
-Pre- Conditions: 
-Application Downloaded successfully
-User Signed In with Apple 
-Use chose to Hide the email while signing In 
-Steps to Execute:
-Click on settings button on Top Right of the screen 
-Choose Settings from the menu 
-Choose Profile 
-Expected Results:
-Name is displayed 
-Encrypted Email is displayed 
-Actual Results: 
-Name is displayed 
-Encrypted Email is displayed 
-Prioritization: Medium
-Status: Pass
+
+**Steps to Execute:**
+1. Click on settings button on Top Right of the screen 
+2. Choose Settings from the menu 
+3. Choose Profile 
+
+**Expected Results:**
+1. Name is displayed 
+2. Encrypted Email is displayed 
+
+**Actual Results:** 
+1. Name is displayed 
+2. Encrypted Email is displayed
+   
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can update his mail
-Steps to Execute: 
-Get into account settings 
-Click on edit icon beside email
-Agree on change 
-Enter email password 
-Expected Results:
-Email changes 
-New email displayed on profile 
-Actual Results:
-Email changed and displayed 
-Prioritization: Medium
-Status: Pass
+**Test Case ID: TC - Verify User can update his mail**
+
+**Steps to Execute:** 
+1. Get into account settings 
+2. Click on edit icon beside email
+3. Agree on change 
+4. Enter email password 
+
+**Expected Results:**
+1. Email changes 
+2. New email displayed on profile
+   
+**Actual Results:**
+1. Email changed and displayed 
+
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User Add profile photo
-Steps to Execute:
-Get into account settings 
-Get into Profile
-User click on User Photo 
-User choose to Take Photo / Choose from Library 
-User choose Upload 
-Expected Results: 
-Image Displays in account profile
-Actual Results:
-Image displayed 
-Prioritization: Medium
-Status: Pass
+**Test Case ID: TC - Verify User Add profile photo**
+
+**Steps to Execute:**
+1. Get into account settings 
+2. Get into Profile
+3. User click on User Photo 
+4. User choose to Take Photo / Choose from Library 
+5. User choose Upload 
+
+**Expected Results:** 
+1. Image Displays in account profile
+   
+**Actual Results:**
+1. Image displayed 
+
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can delete profile photo
-Steps to Execute:
-Get into account settings 
-Get into Profile
-User click on User Photo 
-User choose to Take Photo / Choose from Library 
-User choose Upload 
-User try to delete profile photo
-Expected Results: 
-User can delete photo
-Photo not displayed anymore 
-Actual Results:
-User cannot delete image 
-Prioritization: Medium
-Status: Fail
+**Test Case ID: TC - Verify User can delete profile photo**
+
+**Steps to Execute:**
+1. Get into account settings 
+2. Get into Profile
+3. User click on User Photo 
+4. User choose to Take Photo / Choose from Library 
+5. User choose Upload 
+6. User try to delete profile photo
+
+**Expected Results:** 
+1. User can delete photo
+2. Photo not displayed anymore 
+
+**Actual Results:**
+1. User cannot delete image 
+
+**Prioritization:** Medium
+
+**Status:** Fail
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can Sign Out 
-Steps to Execute:
-Get into account settings 
-Get into Profile
-User click Sign out
-User click Yes on Message Box 
-Expected Results: 
-User logs out 
-Actual Results:
-User logged out
-Prioritization: Medium
-Status: Pass
+**Test Case ID: TC - Verify User can Sign Out**
+
+**Steps to Execute:**
+1. Get into account settings 
+2. Get into Profile
+3. User click Sign out
+4. User click Yes on Message Box 
+
+**Expected Results:** 
+1. User logs out 
+
+**Actual Results:**
+1. User logged out
+
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-# Test Scenario 7: User account type handling
-Pre- Conditions
-User Open App
-User Signed In
+## Test Scenario 7: User account type handling
 
-Test Case ID: TC - Verifying Free plan user can upgrade to Premium
-Steps to Execute: 
-User get into List/ Calendar view 
-User click on 2 dots menu on top left of screen
-User click settings
-User click profile
-User click on Upgrade to Premium
-User select best plan from available 
-Click Continue
-User click Subscribe 
-User Scan Face ID for Apple Payment (current saved payment method)
-Expected Results:
-Account Upgraded 
-New features appear 
-Actual Results: 
-Account upgraded with new features
-Prioritization: Medium
-Status: Pass
+**Pre- Conditions**
+1. User Open App
+2. User Signed In
+
+**Test Case ID: TC - Verifying Free plan user can upgrade to Premium**
+
+**Steps to Execute:** 
+1. User get into List/ Calendar view 
+2. User click on 2 dots menu on top left of screen
+3. User click settings
+4. User click profile
+5. User click on Upgrade to Premium
+6. User select best plan from available 
+7. Click Continue
+8. User click Subscribe 
+9. User Scan Face ID for Apple Payment (current saved payment method)
+
+**Expected Results:**
+
+1. Account Upgraded 
+2. New features appear 
+
+**Actual Results:** 
+1. Account upgraded with new features
+
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
 **Test Case ID: TC1- Verifying User can Manage Subscription** 
+
 **Steps to Execute:** 
 1. User get into List/ Calendar view 
 2. User click on 2 dots menu on top left of screen
@@ -739,24 +772,26 @@ Status: Pass
 3. Subscription Cancelled
 
 **Prioritization:** Medium
+
 **Status:** Pass
 
 ------------------------------------------------------
 
-# Test Scenario 8: Account Integration
-Pre- Conditions
-User Open App
-User Signed In
-User has WhatsApp or Slack
+## Test Scenario 8: Account Integration
 
+**Pre- Conditions**
+1. User Open App
+2. User Signed In
+3. User has WhatsApp or Slack
 
-Test Case ID: TC - Verifying Premium User can Integrate with WhatsApp
-Steps to Execute: 
-User get into List/ Calendar view 
-User click on 2 dots menu on top left of screen
-User click settings
-User click Integration
-User Click WhatsApp
+**Test Case ID: TC - Verifying Premium User can Integrate with WhatsApp**
+
+**Steps to Execute:** 
+1. User get into List/ Calendar view 
+2. User click on 2 dots menu on top left of screen
+3. User click settings
+4. User click Integration
+5. User Click WhatsApp
 
 ------------------------------------------------------
 
@@ -779,114 +814,140 @@ User Click WhatsApp
 1. User Any.do and Slack accounts are integrated
    
 **Prioritization:** Medium
+
 **Status:** Pass
 
 ------------------------------------------------------
 
-# Test Scenario 9: Notifications and Alerts
+## Test Scenario 9: Notifications and Alerts
 
-Test Case ID: TC - Verify User can see Notifications 
 Pre- Conditions
-User Open App
-User Signed In
+1. User Open App
+2. User Signed In
 
-Steps to Execute: 
-User get into List/ Calendar view 
-User set Task or Meeting 
-User wait for assigning time to see Notification 
+**Test Case ID: TC - Verify User can see Notifications** 
 
-Expected Results: 
-Notification Displayed on Time
-Actual Results: 
-Notification Displayed on Time
-Prioritization: Medium
-Status: Pass
+**Steps to Execute:** 
+1. User get into List/ Calendar view 
+2. User set Task or Meeting 
+3. User wait for assigning time to see Notification 
+
+**Expected Results:** 
+1. Notification Displayed on Time
+2. Actual Results: 
+3. Notification Displayed on Time
+
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
 # Low Priority Scenarios
 
 ## Test Scenario 10: User Accessibility 
-Pre- Conditions
-User Open App
-User Signed In
+1. Pre- Conditions
+2. User Open App
+3. User Signed In
 
 
-Test Case ID: TC - Verify User can change Themes
-Steps to Execute: 
-User get 3 dots settings menu 
-User choose preferred themes from available 
+**Test Case ID: TC - Verify User can change Themes**
 
-Expected Results: 
-App theme changes
-Actual Results: 
-App theme changed
-Prioritization: Low
-Status: Pass
+**Steps to Execute:** 
+1. User get 3 dots settings menu 
+2. User choose preferred themes from available 
 
-------------------------------------------------------
+**Expected Results:** 
+1. App theme changes
 
-Test Case ID: TC - Verify User can Language and Speech
-Steps to Execute: 
-User get 3 dots settings menu 
-User choose Language/Speech
-User change preferred Language 
-Expected Results: 
-Language changes as selected 
-Actual Results: 
-Language changed as selected 
-Prioritization: Low
-Status: Pass
+**Actual Results:** 
+1. App theme changed
+
+**Prioritization:** Low
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can On /Off sound
-Steps to Execute: 
-User get 3 dots settings menu 
-User choose Sounds
-User choose ON or OF
+**Test Case ID: TC - Verify User can Language and Speech**
 
-Expected Results: 
-Sounds are ON if this option is chosen
-Sounds are OF if this option is chosen
-Actual Results: 
-Sounds ON for ON option
-Sounds OF for OF option
-Prioritization: Low
-Status: Pass
+**Steps to Execute:** 
+1. User get 3 dots settings menu 
+2. User choose Language/Speech
+3. User change preferred Language 
+
+**Expected Results:** 
+1. Language changes as selected 
+
+**Actual Results:** 
+1. Language changed as selected 
+
+**Prioritization:** Low
+
+**Status:** Pass
+
+------------------------------------------------------
+
+**Test Case ID: TC - Verify User can On /Off sound**
+
+**Steps to Execute:** 
+1. User get 3 dots settings menu 
+2. User choose Sounds
+3. User choose ON or OF
+
+**Expected Results:** 
+1. Sounds are ON if this option is chosen
+2. Sounds are OF if this option is chosen
+
+**Actual Results:** 
+1. Sounds ON for ON option
+2. Sounds OF for OF option
+
+**Prioritization:** Low
+
+**Status:** Pass
 
 ------------------------------------------------------
 
 ## Test Scenario 11: User Usability 
-Pre- Conditions
-User Open App
-User Signed In
+**Pre- Conditions**
+1. User Open App
+2. User Signed In
 
 
-Test Case ID: TC - Verify User can change preferred Home Screen
-Steps to Execute: 
-User get 3 dots settings menu  
-User Click Preferred Home Screen 
-User keep clicking until reaching preferred option 
-Expected Results: 
-Home screen is as user preference 
-Actual Results: 
-Home screen is now as user preference 
-Prioritization: Low
-Status: Pass
+**Test Case ID: TC - Verify User can change preferred Home Screen**
+
+**Steps to Execute:** 
+1. User get 3 dots settings menu  
+2. User Click Preferred Home Screen 
+3. User keep clicking until reaching preferred option 
+
+**Expected Results:**
+1. Home screen is as user preference 
+
+**Actual Results:** 
+1. Home screen is now as user preference 
+
+**Prioritization:** Low
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User have Support option
-Steps to Execute: 
-User get 3 dots settings menu  
-User Click on Support
-User choose FAQs, Report a Bug, Feature Request 
+**Test Case ID: TC - Verify User have Support option**
 
-Expected Results: 
-User get support 
-Actual Results: 
-User got needed support 
-Prioritization: Low
-Status: Pass
+**Steps to Execute:** 
+1. User get 3 dots settings menu  
+2. User Click on Support
+3. User choose FAQs, Report a Bug, Feature Request 
+
+**Expected Results:** 
+1. User get support
+   
+**Actual Results:** 
+1. User got needed support 
+
+**Prioritization:** Low
+
+**Status:** Pass
 
