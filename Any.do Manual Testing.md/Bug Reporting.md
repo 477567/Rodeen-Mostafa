@@ -13,7 +13,7 @@
 6. Select any Video 
 7. Click Choose
    
-**Attachments**
+**Attachments** [https://drive.google.com/file/d/15tIYs1jIen9UzZqcuh_brOitnmqSPCc7/view?usp=sharing](url)
 
 **Video Size:** 22.6MB 
 
