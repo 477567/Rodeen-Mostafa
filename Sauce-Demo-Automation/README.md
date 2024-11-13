@@ -9,13 +9,21 @@ login feature under various conditions by running a series of positive and negat
 **Test Cases**
 
 Test Case 1: Valid username and password
+
 Test Case 2: Invalid username and password
+
 Test Case 3: Valid username and valid password
+
 Test Case 4: Invalid username and password
+
 Test Case 5: Empty username and valid password
+
 Test Case 6: Empty username and invalid password
+
 Test Case 7: Valid username and empty password 
+
 Test Case 8: Invalid username and empty password
+
 Test Case 9: Empty username and password
   
 
