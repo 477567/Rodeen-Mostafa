@@ -355,126 +355,162 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can attach Video to a List from Camera
-Steps to Execute:
-User get into the List 
-Click on Plus button at the bottom of the screen 
-Choose Camera 
-Take Video 
-Stop Video 
-Click Use Video 
-Expected Results:
-Video attached in attachments section at the screen bottom 
-Actual Results: 
-Video attached in attachments section at the screen bottom 
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC - Verify User can attach Video to a List from Camera**
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on Plus button at the bottom of the screen 
+3. Choose Camera 
+4. Take Video 
+5. Stop Video 
+6. Click Use Video 
+
+**Expected Results:**
+1. Video attached in attachments section at the screen bottom 
+
+**Actual Results:** 
+1. Video attached in attachments section at the screen bottom 
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can attach Image to a List from Gallery
-Steps to Execute:
-User get into the List 
-Click on Plus button at the bottom of the screen 
-Choose Gallery
-Choose image 
-Expected Results:
-Image attached in attachments section at the bottom of the screen 
-Actual Results: 
-Image attached in attachments section at the screen bottom 
-Prioritization: High 
-Status: Pass
+
+**Test Case ID: TC - Verify User can attach Image to a List from Gallery**
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on Plus button at the bottom of the screen 
+3. Choose Gallery
+4.Choose image 
+
+**Expected Results:**
+1. Image attached in attachments section at the bottom of the screen 
+
+**Actual Results:** 
+1. Image attached in attachments section at the screen bottom 
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can attach Video to a Task in a List from Gallery
-Steps to Execute:
-User get into the List 
-Click on Plus button at the bottom of the screen 
-Choose Gallery  
-Select any Video 
-Click Choose 
-Expected Results:
-Video attached in attachments section at the screen button 
-Actual Results: 
-Apps lags
-Choose/ Cancel buttons get unclickable
-Video is not uploaded  
-No error messages 
-Prioritization: High 
-Status: Fail
+**Test Case ID: TC - Verify User can attach Video to a Task in a List from Gallery**
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on Plus button at the bottom of the screen 
+3. Choose Gallery  
+6. Select any Video 
+7. Click Choose 
+
+**Expected Results:**
+1. Video attached in attachments section at the screen button 
+
+**Actual Results:** 
+1. Apps lags
+2. Choose/ Cancel buttons get unclickable
+3. Video is not uploaded  
+4. No error messages 
+
+**Prioritization:** High 
+
+**Status:** Fail
 
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying User Attach File to Task in a List 
-Steps to Execute:
-User Open App
-User get into List containing at least one Task 
-User click on task
-User click on Plus icon at the right bottom of the screen 
-Choose Attachment 
-Choose preferred file 
-Expected Results:
-File attached to Task
-File displayed in Task Attachments 
-Actual Results: 
-File not attached
-No any error messages 
-Prioritization: High
-Status: Fail
+**Test Case ID: TC - Verifying User Attach File to Task in a List** 
+
+**Steps to Execute:**
+1. User Open App
+2. User get into List containing at least one Task 
+3. User click on task
+4. User click on Plus icon at the right bottom of the screen 
+5. Choose Attachment 
+6. Choose preferred file 
+
+**Expected Results:**
+1. File attached to Task
+2. File displayed in Task Attachments 
+
+**Actual Results:** 
+1. File not attached
+2. No any error messages 
+
+**Prioritization:** High
+
+**Status:** Fail
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying User attach Voice Note to a Task in a List 
-Steps to Execute:
-User Open App
-User get into List containing at least one Task 
-User click on task
-User click on Plus icon at the right bottom of the screen 
-Choose Voice note
-User Press to Record
-User toggle on right icon  
-Expected Results:
-Voice Note attached to Task
-Actual Results: 
-Voice Note successfully attached
-Prioritization: High
-Status: Pass
+**Test Case ID: TC - Verifying User attach Voice Note to a Task in a List**
+
+**Steps to Execute:**
+1. User Open App
+2. User get into List containing at least one Task 
+3. User click on task
+4. User click on Plus icon at the right bottom of the screen 
+5. Choose Voice note
+6. User Press to Record
+7. User toggle on right icon  
+
+**Expected Results:**
+1. Voice Note attached to Task
+
+**Actual Results:** 
+1. Voice Note successfully attached
+
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying User cannot save task in the past 
-Steps to Execute:
-Enter the preferred List 
-Click on Plus button on the right side of the screen
-Write the task 
-Click on Custom date
-Choose date in the past 
-Expected Results:
-Task should not be saved as type of validation 
-Actual Results: 
-Task is not saved 
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC - Verifying User cannot save task in the past**
+
+**Steps to Execute:**
+1. Enter the preferred List 
+2. Click on Plus button on the right side of the screen
+3. Write the task 
+4. Click on Custom date
+5. Choose date in the past 
+
+**Expected Results:**
+1. Task should not be saved as type of validation 
+
+**Actual Results:** 
+1. Task is not saved 
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying Free Plan user cannot all Tags to Tasks 
-Steps to Execute:
-Get into the preferred List 
-Click on the Task
-Click on Add Tags
-Choose any Tag rather than Priority Tag 
-Click Save 
-Expected Results:
-Premium Tags are not clickable 
-Nothing Change after Save 
-Actual Results: 
-Premium Tags are not clickable 
-Nothing Change after Save 
-Prioritization: High
-Status: Pass
+**Test Case ID: TC - Verifying Free Plan user cannot all Tags to Tasks**
+
+**Steps to Execute:**
+1. Get into the preferred List 
+2. Click on the Task
+3. Click on Add Tags
+4. Choose any Tag rather than Priority Tag 
+5. Click Save 
+
+**Expected Results:**
+1. Premium Tags are not clickable 
+2. Nothing Change after Save 
+
+**Actual Results:** 
+1. Premium Tags are not clickable 
+2. Nothing Change after Save
+   
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
