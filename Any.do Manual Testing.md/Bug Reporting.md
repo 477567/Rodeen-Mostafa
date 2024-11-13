@@ -2,7 +2,7 @@
 
 ## System Bugs
 
-**Title: User cannot attach Video from Gallery to a List** 
+**1- Title: User cannot attach Video from Gallery to a List** 
 
 **Reproducible Steps**
 1. User Open App
@@ -34,7 +34,7 @@
 
 ## UI Bugs
 
-**Title: User cannot get into Account Setting from Defualt Home Page** 
+**2- Title: User cannot get into Account Setting from Defualt Home Page** 
 
 **Reproducible Steps**
 1. User Open App 
@@ -56,7 +56,7 @@
 
 ----------------------------------------------------
 
-**Title: User cannot see years when assigning task in the future**
+**3- Title: User cannot see years when assigning task in the future**
 
 **Reproducible Steps**
 1.User Open App
@@ -81,7 +81,7 @@
 
 ----------------------------------------------------
 
-**Title: User cannot delete List from the Home Page**
+**4- Title: User cannot delete List from the Home Page**
 
 **Reproducible Steps**
 1. User Open App 
@@ -104,7 +104,7 @@
 
 ----------------------------------------------------
 
-**Title: User has two different options in Task Management that serve same thing (Attachments & Browse)**
+**5- Title: User has two different options in Task Management that serve same thing (Attachments & Browse)**
 
 **Reproducible Steps**
 1. User Open App 
@@ -131,7 +131,7 @@
 
 ----------------------------------------------------
 
-**Title: User cannot delete Profile Image**
+**6- Title: User cannot delete Profile Image**
 
 **Reproducible Steps**
 1. User Open App 
