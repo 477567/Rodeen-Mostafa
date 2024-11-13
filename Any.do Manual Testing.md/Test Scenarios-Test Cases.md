@@ -3,7 +3,7 @@ Manual testing was conducted to ensure functional and non-functional correctness
 Performance testing applied, utilizing Android Studio's.**
 
 
-**High Priority Scenarios** 
+#High Priority Scenarios 
 
 **Test Scenario 1: User Authentication**
 
@@ -155,54 +155,69 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can Sort a List 
-Steps to Execute:
-User get into the List 
-Click on the settings button on the upper right side for the screen 
-Choose Sort option 
-Choose either to Sort by Time or List 
-Expected Results:
-Tasks are sorted depending on Date and Time 
-Actual Results: 
-Tasks already sorted
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC - Verify User can Sort a List** 
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on the settings button on the upper right side for the screen 
+3. Choose Sort option 
+4. Choose either to Sort by Time or List
+   
+**Expected Results:**
+1. Tasks are sorted depending on Date and Time
+   
+**Actual Results:** 
+1. Tasks already sorted
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can Filter a List 
-Steps to Execute:
-User get into the List 
-Click on the settings button on the upper right side for the screen 
-Choose Filter option 
-Choose preferred Tag from Filtration
-Click Apply  
-Expected Results:
-Filtered Tasks with chose Tag only is displayed 
-No Tasks appear, if the chose task has no assigned Task 
-Actual Results: 
-Filter Tasks only appear 
-Nothing appear if no Tasks assigned to filtered Tag
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC - Verify User can Filter a List**
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on the settings button on the upper right side for the screen 
+3. Choose Filter option 
+4. Choose preferred Tag from Filtration
+5. Click Apply
+    
+**Expected Results:**
+1. Filtered Tasks with chose Tag only is displayed 
+2. No Tasks appear, if the chose task has no assigned Task 
+
+**Actual Results:** 
+1. Filter Tasks only appear 
+2. Nothing appear if no Tasks assigned to filtered Tag
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can delete a List 
-Steps to Execute:
-User get into the List 
-Click on the settings button on the upper right side for the screen 
-Choose Delete option 
-Agree to deletion by clicking Delete 
-Expected Results:
-User got out of the List 
-List is no more displayed in My Lists
-Actual Results: 
-User got out of the List 
-List is no more displayed in My Lists
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC - Verify User can delete a List**
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on the settings button on the upper right side for the screen 
+3. Choose Delete option 
+4. Agree to deletion by clicking Delete 
+
+**Expected Results:**
+1. User got out of the List 
+2. List is no more displayed in My Lists
+
+**Actual Results:** 
+1. User got out of the List 
+2. List is no more displayed in My Lists
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 
 ------------------------------------------------------
