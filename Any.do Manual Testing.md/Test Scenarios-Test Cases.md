@@ -268,71 +268,90 @@ Performance testing applied, utilizing Android Studio's.**
 **Test Case ID: TC - Verify User can change assigned Task to another List**
 
 **Pre- Conditions:** 
-User Signed In 
-User chose List view 
-User has minimum two Lists one of them contains minimum one task 
-Steps to Execute:
-Get into the preferred List containing task 
-Click on the Task 
-Click on the List name displayed 
-Choose preferred list to re-assign task to 
-Click Save
-Expected Results:
-Task removed from the List 
-Task is found in the new List 
-Actual Results: 
-Task removed from the List 
-Task is found in the new List 
-Prioritization: Medium
-Status: Pass
+1. User Signed In 
+2. User chose List view 
+3. User has minimum two Lists one of them contains minimum one task 
+
+**Steps to Execute:**
+1. Get into the preferred List containing task 
+2. Click on the Task 
+3. Click on the List name displayed 
+4. Choose preferred list to re-assign task to 
+5. Click Save
+
+**Expected Results:**
+1. Task removed from the List 
+2. Task is found in the new List 
+
+**Actual Results:** 
+1. Task removed from the List 
+2. Task is found in the new List 
+
+**Prioritization:** Medium
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying Free Plan user can add specific Tags to Tasks 
-Steps to Execute:
-Get into the preferred List 
-Click on the Task
-Click on Add Tags
-Choose Priority Tag 
-Click Save 
-Expected Results:
-Tag displayed with the Task 
-Actual Results: 
-Tag displayed with the Task 
-Prioritization: Medium 
-Status: Pass
+**Test Case ID: TC - Verifying Free Plan user can add specific Tags to Tasks**
+
+**Steps to Execute:**
+1. Get into the preferred List 
+2. Click on the Task
+3. Click on Add Tags
+4. Choose Priority Tag 
+5. Click Save 
+
+**Expected Results:**
+1. Tag displayed with the Task 
+2. Actual Results: 
+3. Tag displayed with the Task 
+
+**Prioritization:** Medium 
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verifying User can Add Subtasks or Notes
-Steps to Execute:
-Get into the preferred List 
-Click on the Task
-Write in Subtasks & Notes as much as you need 
-Expected Results:
-Subtasks showed as branches with the Parent Task
-Notes are Saved & shown when entering the Task
-Actual Results: 
-Subtasks showed as branches with the Parent Task
-Notes are Saved & shown when entering the Task
-Prioritization: High
-Status: Pass
+**Test Case ID: TC - Verifying User can Add Subtasks or Notes**
+
+**Steps to Execute:**
+1. Get into the preferred List 
+2. Click on the Task
+3. Write in Subtasks & Notes as much as you need 
+
+**Expected Results:**
+1. Subtasks showed as branches with the Parent Task
+2. Notes are Saved & shown when entering the Task
+
+**Actual Results:** 
+1. Subtasks showed as branches with the Parent Task
+2. Notes are Saved & shown when entering the Task
+
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can attach Image to a Task in List from Camera
-Steps to Execute:
-User get into the List 
-Click on Plus button at the bottom of the screen 
-Choose Camera 
-Take Picture 
-Click Use Photo 
-Expected Results:
-Image attached in attachments section at the screen bottom 
-Actual Results: 
-Image attached in attachments section at the screen bottom
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC - Verify User can attach Image to a Task in List from Camera**
+
+**Steps to Execute:**
+1. User get into the List 
+2. Click on Plus button at the bottom of the screen 
+3. Choose Camera 
+4. Take Picture 
+5. Click Use Photo 
+
+**Expected Results:**
+1. Image attached in attachments section at the screen bottom 
+
+**Actual Results:** 
+1. Image attached in attachments section at the screen bottom
+
+**Prioritization:** High 
+
+**Status:** Pass
 
 ------------------------------------------------------
 
@@ -459,21 +478,25 @@ Status: Pass
 
 ------------------------------------------------------
 
-Test Case ID: TC - Verify User can delete Task from a List 
-Steps to Execute: 
-Get into the preferred List 
-Click on the Task
-Click on settings icon on the upper left 
-Choose to Archive Task 
-Click Delete Task 
-Expected Result:
-Task deleted 
-Task no more displayed in the List 
-Actual Results:
+**Test Case ID: TC - Verify User can delete Task from a List**
+
+**Steps to Execute:** 
+1. Get into the preferred List 
+2. Click on the Task
+3. Click on settings icon on the upper left 
+4. Choose to Archive Task 
+5. Click Delete Task 
+
+**Expected Result:**
+1. Task deleted 
+2. Task no more displayed in the List 
+
+**Actual Results:**
 Task Deleted 
 
-Prioritization: High
-Status: Pass
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
@@ -485,22 +508,27 @@ Status: Pass
 
 
 **Test Case ID: TC - Verifying User can add event in calendar view**
-Steps to Execute:
-Get into the calendar from bottom menu
-Create Event
-Name Event 
-Set start date
-Set end date
-Click Confirm
-Click on Up icon/button
-Click on Add event on displayed screen 
-Expected Results:
-Event created
-Event displayed in Calendar
-Actual Results: 
-Event created & displayed 
-Prioritization: High
-Status: Pass
+
+**Steps to Execute:**
+1. Get into the calendar from bottom menu
+2. Create Event
+3. Name Event 
+4. Set start date
+5. Set end date
+6. Click Confirm
+7. Click on Up icon/button
+8. Click on Add event on displayed screen 
+
+**Expected Results:**
+1. Event created
+2. Event displayed in Calendar
+
+**Actual Results:** 
+1. Event created & displayed 
+
+**Prioritization:** High
+
+**Status:** Pass
 
 ------------------------------------------------------
 
