@@ -113,7 +113,7 @@ Performance testing applied, utilizing Android Studio's.**
 3. User has minimum one List contains minimum one task 
 
 
-**Test Case ID: TC - User can create a New List** 
+**Test Case ID: TC5 - User can create a New List** 
 
 **Steps to Execute:**
 1. Get into the Home Page 
@@ -134,7 +134,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying User can Edit existing List**
+**Test Case ID: TC6 - Verifying User can Edit existing List**
 
 **Steps to Execute:**
 1. Enter the preferred List 
@@ -155,7 +155,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can Sort a List** 
+**Test Case ID: TC7 - Verify User can Sort a List** 
 
 **Steps to Execute:**
 1. User get into the List 
@@ -176,7 +176,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can Filter a List**
+**Test Case ID: TC8 - Verify User can Filter a List**
 
 **Steps to Execute:**
 1. User get into the List 
@@ -199,7 +199,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can delete a List**
+**Test Case ID: TC9 - Verify User can delete a List**
 
 **Steps to Execute:**
 1. User get into the List 
@@ -229,7 +229,7 @@ Performance testing applied, utilizing Android Studio's.**
 3. User has minimum one List contains minimum one task 
 
 
-**Test Case ID: TC - Verify that a user can mark a task as complete**
+**Test Case ID: TC10 - Verify that a user can mark a task as complete**
 **Steps to Execute:**
 1. Get into the preferred List 
 2. Click on the check box beside the task
@@ -247,7 +247,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify that a user can unmark a completed task**
+**Test Case ID: TC11 - Verify that a user can unmark a completed task**
 
 **Steps to Execute:**
 1. Get into the preferred List 
@@ -256,8 +256,9 @@ Performance testing applied, utilizing Android Studio's.**
 
 **Expected Results:**
 1. Task re-assigned 
-2. Actual Results: 
-3. Task re-assigned 
+
+**Actual Results:** 
+1. Task re-assigned 
 
 **Prioritization:** Medium 
 
@@ -265,7 +266,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can change assigned Task to another List**
+**Test Case ID: TC12 - Verify User can change assigned Task to another List**
 
 **Pre- Conditions:** 
 1. User Signed In 
@@ -293,7 +294,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying Free Plan user can add specific Tags to Tasks**
+**Test Case ID: TC13 - Verifying Free Plan user can add specific Tags to Tasks**
 
 **Steps to Execute:**
 1. Get into the preferred List 
@@ -304,8 +305,9 @@ Performance testing applied, utilizing Android Studio's.**
 
 **Expected Results:**
 1. Tag displayed with the Task 
-2. Actual Results: 
-3. Tag displayed with the Task 
+
+**Actual Results:** 
+1. Tag displayed with the Task 
 
 **Prioritization:** Medium 
 
@@ -313,7 +315,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying User can Add Subtasks or Notes**
+**Test Case ID: TC4 - Verifying User can Add Subtasks or Notes**
 
 **Steps to Execute:**
 1. Get into the preferred List 
@@ -334,7 +336,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can attach Image to a Task in List from Camera**
+**Test Case ID: TC15 - Verify User can attach Image to a Task in List from Camera**
 
 **Steps to Execute:**
 1. User get into the List 
@@ -355,7 +357,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can attach Video to a List from Camera**
+**Test Case ID: TC16 - Verify User can attach Video to a List from Camera**
 
 **Steps to Execute:**
 1. User get into the List 
@@ -378,7 +380,7 @@ Performance testing applied, utilizing Android Studio's.**
 ------------------------------------------------------
 
 
-**Test Case ID: TC - Verify User can attach Image to a List from Gallery**
+**Test Case ID: TC17 - Verify User can attach Image to a List from Gallery**
 
 **Steps to Execute:**
 1. User get into the List 
@@ -398,7 +400,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can attach Video to a Task in a List from Gallery**
+**Test Case ID: TC18 - Verify User can attach Video to a Task in a List from Gallery**
 
 **Steps to Execute:**
 1. User get into the List 
@@ -423,7 +425,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying User Attach File to Task in a List** 
+**Test Case ID: TC19 - Verifying User Attach File to Task in a List** 
 
 **Steps to Execute:**
 1. User Open App
@@ -447,7 +449,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying User attach Voice Note to a Task in a List**
+**Test Case ID: TC20 - Verifying User attach Voice Note to a Task in a List**
 
 **Steps to Execute:**
 1. User Open App
@@ -470,7 +472,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying User cannot save task in the past**
+**Test Case ID: TC21 - Verifying User cannot save task in the past**
 
 **Steps to Execute:**
 1. Enter the preferred List 
@@ -491,7 +493,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying Free Plan user cannot all Tags to Tasks**
+**Test Case ID: TC22 - Verifying Free Plan user cannot all Tags to Tasks**
 
 **Steps to Execute:**
 1. Get into the preferred List 
@@ -514,7 +516,7 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can delete Task from a List**
+**Test Case ID: TC23 - Verify User can delete Task from a List**
 
 **Steps to Execute:** 
 1. Get into the preferred List 
@@ -543,7 +545,7 @@ Task Deleted
 2. User choose Calendar view
 
 
-**Test Case ID: TC - Verifying User can add event in calendar view**
+**Test Case ID: TC24 - Verifying User can add event in calendar view**
 
 **Steps to Execute:**
 1. Get into the calendar from bottom menu
@@ -568,7 +570,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can edit event on Calendar**
+**Test Case ID: TC25 - Verify User can edit event on Calendar**
 
 **Steps to Execute:**
 1. Get into the calendar from bottom menu
@@ -579,8 +581,9 @@ Task Deleted
 
 **Expected Results:**
 1. New event change dispalyed 
-2. Actual Results:
-3. Changes dispalyed 
+
+**Actual Results:**
+1. Changes dispalyed 
 
 **Prioritization:** High
 
@@ -588,7 +591,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verifying user can change Calendar View** 
+**Test Case ID: TC26 - Verifying user can change Calendar View** 
 
 **Steps to Execute:** 
 1. Get into Calendar View 
@@ -596,9 +599,10 @@ Task Deleted
 3. Choose preferred view 
 
 **Expected Results:** 
-1. View change depending on choice
-2. Actual Results:
-3. View changed
+1. View change depending on choice (2/3 columns)
+
+**Actual Results:**
+1. View changed
 
 **Prioritization:** High
 
@@ -607,16 +611,17 @@ Task Deleted
 ------------------------------------------------------
 
 ## Test Scenario 5: Performance
-**Test Case 1:CPU Idle State**
+
+**Test Case 27:CPU Idle State**
 1. Launch the app and let it idle in the background.
 
-**Test Case 2: Normal Usage**
+**Test Case 28: Normal Usage**
 1. Perform common app actions like creating tasks, lists, mark as done
 
-**Test Case 3: Heavy Load**
+**Test Case 29: Heavy Load**
 1. Perform resource-intensive tasks like uploading large files,  high-resolution videos
 
-**Test Case 4: Memory Usage**
+**Test Case 30: Memory Usage**
 1. Perform various app actions and monitor memory usage over time.
 
 ## Performance Testing Report 
@@ -676,11 +681,16 @@ Task Deleted
 
 **Pre- Conditions:** 
 1. Application Downloaded successfully
+2. User Signed In
+
+
+**Test Case ID: TC31 - Verify Hid Email when Signing with Apple** 
+
+**Pre- Conditions:** 
+1. Application Downloaded successfully
 2. User Signed In with Apple 
-3. Use chose to Hide the email while signing In 
-
-**Test Case ID: TC - Verify Hid Email when Signing with Apple** 
-
+3. Use chose to Hide the email while signing In
+   
 **Steps to Execute:**
 1. Click on settings button on Top Right of the screen 
 2. Choose Settings from the menu 
@@ -700,7 +710,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can update his mail**
+**Test Case ID: TC32 - Verify User can update his mail**
 
 **Steps to Execute:** 
 1. Get into account settings 
@@ -721,7 +731,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User Add profile photo**
+**Test Case ID: TC33 - Verify User Add profile photo**
 
 **Steps to Execute:**
 1. Get into account settings 
@@ -742,7 +752,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can delete profile photo**
+**Test Case ID: TC34 - Verify User can delete profile photo**
 
 **Steps to Execute:**
 1. Get into account settings 
@@ -765,7 +775,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can Sign Out**
+**Test Case ID: TC35 - Verify User can Sign Out**
 
 **Steps to Execute:**
 1. Get into account settings 
@@ -791,7 +801,7 @@ Task Deleted
 1. User Open App
 2. User Signed In
 
-**Test Case ID: TC - Verifying Free plan user can upgrade to Premium**
+**Test Case ID: TC36 - Verifying Free plan user can upgrade to Premium**
 
 **Steps to Execute:** 
 1. User get into List/ Calendar view 
@@ -818,7 +828,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC1- Verifying User can Manage Subscription** 
+**Test Case ID: TC37- Verifying User can Manage Subscription** 
 
 **Steps to Execute:** 
 1. User get into List/ Calendar view 
@@ -848,7 +858,7 @@ Task Deleted
 2. User Signed In
 3. User has WhatsApp or Slack
 
-**Test Case ID: TC - Verifying Premium User can Integrate with WhatsApp**
+**Test Case ID: TC38 - Verifying Premium User can Integrate with WhatsApp**
 
 **Steps to Execute:** 
 1. User get into List/ Calendar view 
@@ -859,7 +869,7 @@ Task Deleted
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can Integrate with Slack**
+**Test Case ID: TC39 - Verify User can Integrate with Slack**
 
 **Steps to Execute:**
 1. User get into List/ Calendar view 
@@ -885,11 +895,11 @@ Task Deleted
 
 ## Test Scenario 9: Notifications and Alerts
 
-Pre- Conditions
+**Pre- Conditions**
 1. User Open App
 2. User Signed In
 
-**Test Case ID: TC - Verify User can see Notifications** 
+**Test Case ID: TC40 - Verify User can see Notifications** 
 
 **Steps to Execute:** 
 1. User get into List/ Calendar view 
@@ -898,8 +908,9 @@ Pre- Conditions
 
 **Expected Results:** 
 1. Notification Displayed on Time
-2. Actual Results: 
-3. Notification Displayed on Time
+
+**Actual Results:** 
+1. Notification Displayed on Time
 
 **Prioritization:** Medium
 
@@ -910,12 +921,13 @@ Pre- Conditions
 # Low Priority Scenarios
 
 ## Test Scenario 10: User Accessibility 
-1. Pre- Conditions
-2. User Open App
-3. User Signed In
+
+**Pre- Conditions**
+1. User Open App
+2. User Signed In
 
 
-**Test Case ID: TC - Verify User can change Themes**
+**Test Case ID: TC41 - Verify User can change Themes**
 
 **Steps to Execute:** 
 1. User get 3 dots settings menu 
@@ -933,7 +945,7 @@ Pre- Conditions
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can Language and Speech**
+**Test Case ID: TC42 - Verify User can Language and Speech**
 
 **Steps to Execute:** 
 1. User get 3 dots settings menu 
@@ -952,7 +964,7 @@ Pre- Conditions
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User can On /Off sound**
+**Test Case ID: TC43 - Verify User can On /Off sound**
 
 **Steps to Execute:** 
 1. User get 3 dots settings menu 
@@ -979,7 +991,7 @@ Pre- Conditions
 2. User Signed In
 
 
-**Test Case ID: TC - Verify User can change preferred Home Screen**
+**Test Case ID: TC44 - Verify User can change preferred Home Screen**
 
 **Steps to Execute:** 
 1. User get 3 dots settings menu  
@@ -998,7 +1010,7 @@ Pre- Conditions
 
 ------------------------------------------------------
 
-**Test Case ID: TC - Verify User have Support option**
+**Test Case ID: TC45 - Verify User have Support option**
 
 **Steps to Execute:** 
 1. User get 3 dots settings menu  
