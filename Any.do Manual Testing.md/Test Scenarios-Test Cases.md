@@ -3,7 +3,7 @@ Manual testing was conducted to ensure functional and non-functional correctness
 Performance testing applied, utilizing Android Studio's.**
 
 
-#High Priority Scenarios 
+# High Priority Scenarios 
 
 **Test Scenario 1: User Authentication**
 
