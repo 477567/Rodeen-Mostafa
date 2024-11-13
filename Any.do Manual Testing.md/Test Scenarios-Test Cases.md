@@ -1,5 +1,6 @@
 **This project involved comprehensive testing of the AnyDo app on IOS to ensure its quality and performance. Manual testing was conducted to verify functional correctness, and usability. Performance testing was performed using Android Studio to analyze CPU usage,and memory consumption. A total of 11 test scenarios and 45 test cases were executed, resulting in the identification of 6 System and UX bugs**
 
+![Testing Statistics]("C:\Users\Rodeen\Downloads\Any.do Manual Testing.png")
 
 # High Priority Scenarios 
 
