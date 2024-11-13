@@ -1,4 +1,4 @@
-# This project involved comprehensive testing of the AnyDo app to ensure its quality and performance. Manual testing was conducted to verify functional correctness, and usability. Performance testing was performed using Android Studio to analyze CPU usage,and memory consumption. A total of 11 test scenarios and 45 test cases were executed, resulting in the identification of 7 System and UI bugs
+## This project involved comprehensive testing of the AnyDo app to ensure its quality and performance. Manual testing was conducted to verify functional correctness, and usability. Performance testing was performed using Android Studio to analyze CPU usage,and memory consumption. A total of 11 test scenarios and 45 test cases were executed, resulting in the identification of 7 System and UI bugs
 
 
 # High Priority Scenarios 
