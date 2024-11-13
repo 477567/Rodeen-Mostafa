@@ -1,4 +1,4 @@
-# Bug Report
+# Bug Report - 6 Bugs
 
 ## System Bugs
 
@@ -32,7 +32,7 @@
 ----------------------------------------------------
 
 
-## UI Bugs
+## UX Bugs
 
 **2- Title: User cannot get into Account Setting from Defualt Home Page** 
 
