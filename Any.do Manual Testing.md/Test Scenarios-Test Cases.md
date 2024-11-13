@@ -56,81 +56,104 @@ Performance testing applied, utilizing Android Studio's.**
 
 ------------------------------------------------------
 
-Test Case ID: TC3 - Verify User can Sign Up with Mail 
-Steps to Execute:
-Open App
-Click on Mail Box logo button 
-Enter your preferred mail 
-Then click the right arrow after mail validation 
-Enter Full Name  
-Create Password 
-Click Create Account 
-Expected Results:
-Sign In successful 
-Landing on Intro page 
-Actual Results: 
-Signed In successful 
-Landed on Intro page 
-Prioritization: High 
-Status: Pass
+**Test Case ID: TC3 - Verify User can Sign Up with Mail**
+
+**Steps to Execute:**
+1. Open App
+2. Click on Mail Box logo button 
+3. Enter your preferred mail 
+4. Then click the right arrow after mail validation 
+5. Enter Full Name  
+6. Create Password 
+7. Click Create Account
+   
+**Expected Results:**
+1. Sign In successful 
+2. Landing on Intro page
+   
+**Actual Results:**
+1. Signed In successful 
+2. Landed on Intro page
+   
+**Prioritization:** High
+
+**Status:** Pass
+
+------------------------------------------------------
+
+**Test Case ID: TC4 - Verify User can Sign In with Facebook** 
+
+**Steps to Execute:** 
+1. Open App 
+2. Click on Facebook logo button 
+3. Agree to use Facebook for Sign In by clicking Continue 
+4. Enter valid credentials for Facebook Sign In, then Log In OR you can Sign In with you Saved Passwords 
+5. Verifying that you’re a human by entering the Captcha 
+6. Agree to requesting access for Facebook data, click Continue
+
+**Expected Results:**
+1. Sign In successful 
+2. Landing on Intro page
+   
+**Actual Results:** 
+1. Signed In successful 
+2. Landed on Intro page
+
+**Prioritization:** High 
+
+**Status:** Pass 
+
+------------------------------------------------------
+
+**Test Scenario 2: List Management** 
+
+**Pre - Conditions:**
+1. User Signed In 
+2. User chose List view 
+3. User has minimum one List contains minimum one task 
 
 
+**Test Case ID: TC - User can create a New List** 
 
-Test Case ID: TC4 - Verify User can Sign In with Facebook 
-Steps to Execute: 
-Open App 
-Click on Facebook logo button 
-Agree to use Facebook for Sign In by clicking Continue 
-Enter valid credentials for Facebook Sign In, then Log In OR you can Sign In with you Saved Passwords 
-Verifying that you’re a human by entering the Captcha 
-Agree to requesting access for Facebook data, click Continue 
-Expected Results:
-Sign In successful 
-Landing on Intro page 
-Actual Results: 
-Signed In successful 
-Landed on Intro page 
-Prioritization: High 
-Status: Pass 
+**Steps to Execute:**
+1. Get into the Home Page 
+2. Click on Plus button in My Lists 
+3. Add name for new List
+   
+**Expected Results:** 
+1. New list created
+2. List displayed in My Lists
+   
+**Actual Results:** 
+1. New list created
+2. List displayed in My Lists
+   
+**Prioritization:** High
 
+**Status:** Pass
 
+------------------------------------------------------
 
-Test Scenario 2: List Management 
-Pre - Conditions:
-User Signed In 
-User chose List view 
-User has minimum one List contains minimum one task 
+**Test Case ID: TC - Verifying User can Edit existing List**
 
+**Steps to Execute:**
+1. Enter the preferred List 
+2. Click on Plus button on the right side of the screen
+3. Write the task 
+4. Choose any valid assigning date in the future
+5. Click on the Upload/ Up button for task save
+   
+**Expected Results:**
+1. Task Saved 
+2. Task in now displayed in the assigned day 
+3. Actual Results: 
+4. Task Saved 
+5. Task in now displayed in the assigned day
+   
+**Prioritization:** High
+**Status:** Pass
 
-Test Case ID: TC - User can create a New List 
-Steps to Execute:
-Get into the Home Page 
-Click on Plus button in My Lists 
-Add name for new List 
-Expected Results: 
-New list created
-List displayed in My Lists 
-Actual Results: 
-New list created
-List displayed in My Lists 
-Prioritization: High
-Status: Pass
-
-Test Case ID: TC - Verifying User can Edit existing List 
-Steps to Execute:
-Enter the preferred List 
-Click on Plus button on the right side of the screen
-Write the task 
-Choose any valid assigning date in the future
-Click on the Upload/ Up button for task save
-Expected Results:
-Task Saved 
-Task in now displayed in the assigned day 
-Actual Results: 
-Task Saved 
-Task in now displayed in the assigned day 
-Prioritization: High
-Status: Pass
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can Sort a List 
 Steps to Execute:
@@ -145,6 +168,8 @@ Tasks already sorted
 Prioritization: High 
 Status: Pass
 
+
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can Filter a List 
 Steps to Execute:
@@ -162,6 +187,7 @@ Nothing appear if no Tasks assigned to filtered Tag
 Prioritization: High 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can delete a List 
 Steps to Execute:
@@ -179,7 +205,7 @@ Prioritization: High
 Status: Pass
 
 
-
+------------------------------------------------------
 
 Test Scenario 3: Task Management
 Pre - Conditions:
@@ -204,6 +230,7 @@ Task is marked as completed
 Prioritization: Medium
 Status:Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify that a user can unmark a completed task
 Steps to Execute:
@@ -217,6 +244,7 @@ Task re-assigned
 Prioritization: Medium 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can change assigned Task to another List 
 Pre- Conditions: 
@@ -238,6 +266,7 @@ Task is found in the new List
 Prioritization: Medium
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verifying Free Plan user can add specific Tags to Tasks 
 Steps to Execute:
@@ -253,6 +282,7 @@ Tag displayed with the Task
 Prioritization: Medium 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verifying User can Add Subtasks or Notes
 Steps to Execute:
@@ -268,6 +298,7 @@ Notes are Saved & shown when entering the Task
 Prioritization: High
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can attach Image to a Task in List from Camera
 Steps to Execute:
@@ -283,6 +314,7 @@ Image attached in attachments section at the screen bottom
 Prioritization: High 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can attach Video to a List from Camera
 Steps to Execute:
@@ -299,6 +331,7 @@ Video attached in attachments section at the screen bottom
 Prioritization: High 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can attach Image to a List from Gallery
 Steps to Execute:
@@ -313,6 +346,7 @@ Image attached in attachments section at the screen bottom
 Prioritization: High 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can attach Video to a Task in a List from Gallery
 Steps to Execute:
@@ -332,6 +366,8 @@ Prioritization: High
 Status: Fail
 
 
+------------------------------------------------------
+
 Test Case ID: TC - Verifying User Attach File to Task in a List 
 Steps to Execute:
 User Open App
@@ -349,6 +385,8 @@ No any error messages
 Prioritization: High
 Status: Fail
 
+------------------------------------------------------
+
 Test Case ID: TC - Verifying User attach Voice Note to a Task in a List 
 Steps to Execute:
 User Open App
@@ -365,7 +403,7 @@ Voice Note successfully attached
 Prioritization: High
 Status: Pass
 
-
+------------------------------------------------------
 
 Test Case ID: TC - Verifying User cannot save task in the past 
 Steps to Execute:
@@ -381,6 +419,7 @@ Task is not saved
 Prioritization: High 
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verifying Free Plan user cannot all Tags to Tasks 
 Steps to Execute:
@@ -398,6 +437,7 @@ Nothing Change after Save
 Prioritization: High
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can delete Task from a List 
 Steps to Execute: 
@@ -414,6 +454,8 @@ Task Deleted
 
 Prioritization: High
 Status: Pass
+
+------------------------------------------------------
 
 Test Scenario 4: Calendar Management 
 Pre- Conditions:
@@ -439,6 +481,8 @@ Event created & displayed
 Prioritization: High
 Status: Pass
 
+------------------------------------------------------
+
 Test Case ID: TC - Verify User can edit event on Calendar
 Steps to Execute:
 Get into the calendar from bottom menu
@@ -453,6 +497,7 @@ Changes dispalyed
 Prioritization: High
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verifying user can change Calendar View 
 Steps to Execute: 
@@ -466,27 +511,20 @@ View changed
 Prioritization: High
 Status: Pass
 
+------------------------------------------------------
 
-Test Scenario 5: Performance
-Test Case 1: CPU Idle State
-Launch the app and let it idle in the background.
+**Test Scenario 5: Performance**
+**Test Case 1:CPU Idle State**
+1. Launch the app and let it idle in the background.
 
-Test Case 2: Normal Usage
+**Test Case 2: Normal Usage**
+1. Perform common app actions like creating tasks, lists, mark as done
 
+**Test Case 3: Heavy Load**
+1. Perform resource-intensive tasks like uploading large files,  high-resolution videos
 
-Perform common app actions like creating tasks, lists, mark as done
-
-Test Case 3: Heavy Load
-
-
-Perform resource-intensive tasks like uploading large files,  high-resolution videos
-
-Test Case 4: Memory Usage at Initial Launch
-Launch the app for the first time 
-Test Case 5: Memory Normal Usage
-
-
-Perform various app actions and monitor memory usage over time.
+**Test Case 4: Memory Usage**
+1. Perform various app actions and monitor memory usage over time.
 
 Performance Testing Report 
 
@@ -516,11 +554,13 @@ CPU Usage: The app's CPU usage is very low (0%). This indicates that the app is 
 Memory Usage: The app's memory usage is relatively low (23.9 MB). However, the "Others" category accounts for a significant portion of the memory usage (20.2 MB). Further analysis is needed to identify the cause of this high "Others" usage.
 
 
+------------------------------------------------------
 
+**Medium Priority Scenarios**
 
-Medium Priority Scenarios 
-Test Scenario 6: User profile handling 
-Test Case ID: TC - Verify Hid Email when Signing with Apple 
+**Test Scenario 6: User profile handling**
+
+**Test Case ID: TC - Verify Hid Email when Signing with Apple** 
 Test Scenario: 
 Pre- Conditions: 
 Application Downloaded successfully
@@ -539,6 +579,8 @@ Encrypted Email is displayed
 Prioritization: Medium
 Status: Pass
 
+------------------------------------------------------
+
 Test Case ID: TC - Verify User can update his mail
 Steps to Execute: 
 Get into account settings 
@@ -552,6 +594,8 @@ Actual Results:
 Email changed and displayed 
 Prioritization: Medium
 Status: Pass
+
+------------------------------------------------------
 
 Test Case ID: TC - Verify User Add profile photo
 Steps to Execute:
@@ -567,6 +611,7 @@ Image displayed
 Prioritization: Medium
 Status: Pass
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can delete profile photo
 Steps to Execute:
@@ -584,6 +629,7 @@ User cannot delete image
 Prioritization: Medium
 Status: Fail
 
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can Sign Out 
 Steps to Execute:
@@ -598,6 +644,7 @@ User logged out
 Prioritization: Medium
 Status: Pass
 
+------------------------------------------------------
 
 Test Scenario 7: User account type handling
 Pre- Conditions
@@ -623,26 +670,30 @@ Account upgraded with new features
 Prioritization: Medium
 Status: Pass
 
+------------------------------------------------------
 
-Test Case ID: TC1- Verifying User can Manage Subscription 
-Steps to Execute: 
-User get into List/ Calendar view 
-User click on 2 dots menu on top left of screen
-User click settings
-User click profile
-User click on Manage Subscription
-User Plan listed (if found)
-User choose to Cancel 
-Click Continue
-Expected Results:
-Subscription Cancelled 
-Actual Results: 
-Subscription Cancelled
-Prioritization: Medium
-Status: Pass
+**Test Case ID: TC1- Verifying User can Manage Subscription** 
+**Steps to Execute:** 
+1. User get into List/ Calendar view 
+2. User click on 2 dots menu on top left of screen
+3. User click settings
+4. User click profile
+5. User click on Manage Subscription
+6. User Plan listed (if found)
+7. User choose to Cancel 
+8. Click Continue
+   
+**Expected Results:**
+1. Subscription Cancelled 
+2. Actual Results: 
+3. Subscription Cancelled
 
+**Prioritization:** Medium
+**Status:** Pass
 
-Test Scenario 8: Account Integration 
+------------------------------------------------------
+
+**Test Scenario 8: Account Integration** 
 Pre- Conditions
 User Open App
 User Signed In
@@ -657,27 +708,32 @@ User click settings
 User click Integration
 User Click WhatsApp
 
+------------------------------------------------------
 
-Test Case ID: TC - Verify User can Integrate with Slack 
-Steps to Execute: 
-User get into List/ Calendar view 
-User click on 2 dots menu on top left of screen
-User click settings
-User click Integration
-User Click Slack
-User Sign In to Slack work space 
-User click Continue 
-Expected Results: 
-User Any.do and Slack accounts are integrated 
-Slack Tasks get into Any.do
-Actual Results: 
-User Any.do and Slack accounts are integrated
-Prioritization: Medium
-Status: Pass
+**Test Case ID: TC - Verify User can Integrate with Slack**
 
+**Steps to Execute:**
+1. User get into List/ Calendar view 
+2. User click on 2 dots menu on top left of screen
+3. User click settings
+4. User click Integration
+5. User Click Slack
+6. User Sign In to Slack work space 
+7. User click Continue
+   
+**Expected Results:** 
+1. User Any.do and Slack accounts are integrated 
+2. Slack Tasks get into Any.do
+   
+**Actual Results:** 
+1. User Any.do and Slack accounts are integrated
+   
+**Prioritization:** Medium
+**Status:** Pass
 
+------------------------------------------------------
 
-Test Scenario 9: Notifications and Alerts
+**Test Scenario 9: Notifications and Alerts**
 
 Test Case ID: TC - Verify User can see Notifications 
 Pre- Conditions
@@ -696,7 +752,9 @@ Notification Displayed on Time
 Prioritization: Medium
 Status: Pass
 
-Low Priority Scenarios 
+------------------------------------------------------
+
+**Low Priority Scenarios** 
 Test Scenario 10: User Accessibility 
 Pre- Conditions
 User Open App
@@ -715,7 +773,7 @@ App theme changed
 Prioritization: Low
 Status: Pass
 
-
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can Language and Speech
 Steps to Execute: 
@@ -729,7 +787,7 @@ Language changed as selected
 Prioritization: Low
 Status: Pass
 
-
+------------------------------------------------------
 
 Test Case ID: TC - Verify User can On /Off sound
 Steps to Execute: 
@@ -745,6 +803,9 @@ Sounds ON for ON option
 Sounds OF for OF option
 Prioritization: Low
 Status: Pass
+
+------------------------------------------------------
+
 Test Scenario 11: User Usability 
 Pre- Conditions
 User Open App
@@ -763,7 +824,7 @@ Home screen is now as user preference
 Prioritization: Low
 Status: Pass
 
-
+------------------------------------------------------
 
 Test Case ID: TC - Verify User have Support option
 Steps to Execute: 
