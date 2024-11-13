@@ -31,33 +31,6 @@
 
 ----------------------------------------------------
 
-**Title: User cannot attach File from Gallery to a Task in a List** 
-
-**Reproducible Steps**
-1. User Open App
-2. User get into the a List 
-3. User get into specific Task 
-4. Click on Plus icon at the right bottom of the screen 
-5. Choose Attachments   
-6. Select any File
-
-**Attachments**
-
-**File Size:** 12.8 MB PDF file 
-
-**Affected Devices:** Apple iPhone 14 Pro max 
-
-**Environment:** iOS 17.7.1
-
-**Network:** Stable Wi-Fi 
-
-**Severity:** Low 
-
-**Priority:** Medium 
-
-**Impact**:
-
-----------------------------------------------------
 
 ## UI Bugs
 
